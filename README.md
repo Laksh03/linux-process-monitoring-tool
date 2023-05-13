@@ -12,6 +12,7 @@ The program, will generate:
 The program will accept multiple commands line arguments:
 
 flagged arguments
+
 --per-process, indicates that only the process FD table will be displayed
 
 --systemWide, indicates that only the system-wide FD table will be displayed
@@ -20,8 +21,8 @@ flagged arguments
 
 --composite, indicates that only the composed table will be displayed
 
---threshold=X, where X denotes an integer, indicating that processes which have a number of FD assigned larger than X should be flagged in the output.
-For this it will list the PID and number of assigned FDs, e.g. PID (FD)
+--threshold=X, where X denotes an integer, indicating that processes which have a number of FD assigned larger than X should be flagged in the output. For this it will list the PID and number of assigned FDs, e.g. PID (FD)
+
 and combination of these, i.e. the program can receive multiple of these flags combined.
 
 Default behaviour: if no argument is passed to the program, then the program will display the composite table, i.e. same effect as having used the --composite flag
